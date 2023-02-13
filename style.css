@@ -61,3 +61,17 @@ p {
 button {
   margin: 20px;
 }
+#container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid #ccc;
+}
+
